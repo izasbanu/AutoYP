@@ -1,0 +1,7 @@
+<suite name="HRM_Automation" parallel="classes" thread-count="10" >
+  <test name="PIM">
+    <classes>
+      <class name="TestScripts.TC1"/>
+       </classes>
+  </test>
+</suite>
