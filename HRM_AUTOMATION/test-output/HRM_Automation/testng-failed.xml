@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Failed suite [HRM_Automation]" parallel="classes">
+  <test name="PIM(failed)" parallel="classes">
+    <classes>
+      <class name="TestScripts.TC1">
+        <methods>
+          <include name="VerifyOrangeHRM"/>
+        </methods>
+      </class> <!-- TestScripts.TC1 -->
+    </classes>
+  </test> <!-- PIM(failed) -->
+</suite> <!-- Failed suite [HRM_Automation] -->
